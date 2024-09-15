@@ -1,5 +1,4 @@
 from networks.unet import UNet, UNet_2d
-#from networks.VNet import VNet
 import torch.nn as nn
 
 def net_factory(net_type="unet", in_chns=1, class_num=2, mode = "train", tsne=0):
